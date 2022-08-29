@@ -12,6 +12,7 @@ var requestOptions = {
 };
 
 function submit(){
+    document.getElementById('section').style.display = 'none'
     document.getElementById('load').style.visibility = 'visible'
     document.getElementById('firstDisplay').style.display = 'none'
     fetch("https://api.api-ninjas.com/v1/bucketlist", requestOptions)
