@@ -13,13 +13,13 @@ var requestOptions = {
 
 function submit(){
     document.getElementById('section').style.display = 'none'
-    document.getElementById('load').style.visibility = 'visible'
+    document.getElementById('load').style.display = 'flex'
     document.getElementById('firstDisplay').style.display = 'none'
     fetch("https://api.api-ninjas.com/v1/bucketlist", requestOptions)
     .then(response => response.json())
     .then(data => {
         
-        document.getElementById('load').style.visibility = 'hidden'
+        document.getElementById('load').style.display = 'none'
         document.getElementById('placeIdeas').innerHTML = data.item
         document.getElementById('section').style.display = 'flex'
     })
