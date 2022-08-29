@@ -21,12 +21,81 @@
 /* BASE STYLES
 /*******************************************/
 
+html {
+     font-size: 62.5%;
+     background: #241B2F;
+}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+#firstDisplay{
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     margin-top: 8%;
+}
 
+#firstHeading{
+     font-size: 10.5em;
+     font-family: 'DynaPuff', cursive;
+     color: #fff;
+     text-align: center;
+}
+
+span{
+     font-family: 'Bangers', cursive;
+     color: #00fff6;
+}
+
+#submit{
+     background: #00fff6;
+     color: #241B2F;
+     font-size: 3.5em;
+     font-family: 'Bangers', cursive;
+     border: none;
+     border-radius: 0.5rem;
+     height: 6rem;
+     width: 16rem;
+     cursor: pointer;
+}
+
+#submit:hover{
+     /* background: #4ebcb8; */
+     background: #78fbf7;
+}
+
+#section{
+     display: flex;
+     flex-flow: column;
+     display: none;
+     align-items: center;
+}
+
+#placeIdeas{
+     margin-top: 4%;
+     font-size: 8.5em;
+     font-family: 'DynaPuff', cursive;
+     color: #fff;
+     text-align: center;
+}
+
+#secondButton{     
+     background: #00fff6;
+     color: #241B2F;
+     font-size: 3.5em;
+     font-family: 'Bangers', cursive;
+     border: none;
+     border-radius: 0.5rem;
+     height: 6rem;
+     width: 23rem;
+     cursor: pointer;
+}
+
+#secondButton:hover{
+     background: #78fbf7;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
