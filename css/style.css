@@ -280,3 +280,19 @@ span{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media all and (max-width: 769px) {
+     #firstDisplay, #section {
+          margin-top: 12%;
+     }
+     html{
+          font-size: 50%
+     }
+     
+}
+
+@media all and (max-width: 425px){
+     html{
+          font-size: 40%
+     }
+}
